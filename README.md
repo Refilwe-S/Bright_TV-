@@ -1,9 +1,6 @@
 # Bright_TV-
 Viewership Analysis
 
-# Bright_TV
-Viewership Analysis
-
 Project Overview
 
 This project analyzes user behavior and viewing patterns for BrightTV, with the goal of helping the business grow its subscription base and improve customer engagement.
