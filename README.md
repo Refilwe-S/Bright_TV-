@@ -43,7 +43,7 @@ Lovable-Dashboard
 
 Workflow
 
-![Workflow][(Project Planning/Miro Flowchart.png)
+![Workflow](2. Project Planning/Miro Flow-Chart.png)
 
 Dashboard
 
