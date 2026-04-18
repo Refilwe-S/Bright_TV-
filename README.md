@@ -1,125 +1,147 @@
-# Bright_TV-
-Viewership Analysis
+BrightTV Viewership Analysis
 
 Project Overview
 
-This project analyzes user behavior and viewing patterns for BrightTV, with the goal of helping the business grow its subscription base and improve customer engagement.
+This project analyzes user behavior and viewing patterns for BrightTV, with the goal of:
 
-The analysis focuses on identifying usage trends, consumption drivers, and growth opportunities using data from user profiles and viewing sessions.
+Growing the subscription base
+Improving customer engagement
+
+The analysis focuses on:
+
+Usage trends
+Consumption drivers
+Growth opportunities
+
+using data from user profiles and viewing sessions.
 
 Objectives
 Understand user activity trends over time
-
 Identify factors influencing content consumption
-
 Detect low engagement periods
-
-Recommend content strategies to increase usage
-
+Recommend strategies to increase usage
 Provide data-driven initiatives to grow the user base
 
 Dataset Description
+Column	Description
+user_id	Unique user identifier
+session_start	Viewing session timestamp (UTC)
+content_title	Content watched
+category	Content type (Movies, Sports, Series)
+watch_time_minutes	Viewing duration
+device_type	Device used
+location	User location
 
-The dataset contains:
-
-user_id – Unique user identifier
-session_start – Timestamp of each viewing session (UTC)
-content_title – Name of content watched
-category – Content category (e.g., Movies, Sports, Series)
-watch_time_minutes – Duration of viewing
-device_type – Device used (Mobile, TV, Desktop)
-location – User location
-
-Note: All timestamps were converted from UTC to South African time (SAST) for accurate analysis.
+All timestamps were converted from UTC → South African Time (SAST)
 
 Tools & Technologies
-Miro for Project Planning and Workflow mapping
-Data Visualization Tools (Excel)
-Databricks SQL
-Canva for Finala presentation
+Databricks SQL – Data transformation
+Excel – Pivot tables & charts
+Miro – Workflow design
+Canva – Presentation
+Lovable-Dashboard
 
-Key Analysis Performed
+Workflow
 
+![Workflow][(Project Planning/Miro Flowchart.png)
+
+Dashboard
+
+Add your dashboard screenshot here (VERY IMPORTANT for portfolio)
+
+Key Analysis
 1. User & Engagement Trends
 Monthly active users
 Daily session activity
 Average watch time
-
 2. Consumption Patterns
 Peak viewing hours
 Weekday vs weekend behavior
-Identification of low-usage periods
-
+Low consumption periods
 3. Content Performance
 Top-performing content
 Most popular categories
-Engagement by content type
-
+Channel engagement
 4. User Segmentation
 High vs low engagement users
-New vs returning users
-
+Age group analysis
+Location insights
 5. Consumption Drivers
 Device usage trends
 Geographic patterns
+Time-based behavior
 
-Key Insights
-Strong growth in user activity over time
+ Key Insights
+ Strong growth in user activity
+ Peak viewing occurs in the evening
+ Low engagement during weekday daytime
+ Certain content drives higher engagement
+ Mobile dominates user consumption
+ 
+ Recommendations
+ Improve Peak Performance
+Promote top-performing content
+Introduce exclusive content
 
-Peak usage occurs during evening hours
+ Increase Low Usage Periods
+Send notifications during low activity times
+Promote short-form content
 
-Low engagement during weekday daytime
+ Personalization
+Recommend content based on behavior
+Use targeted promotions
 
-Certain content categories drive significantly higher engagement
-
-Mobile devices dominate consumption
-
-Recommendations
-
-Increase Peak Performance
-Promote high-performing content during peak hours
-
-Introduce premium or exclusive content
-
-Boost Low Period Usage
-Push notifications during low activity times
-
-Offer short-form or trending content
-
-Personalization & Upselling
-Recommend content based on user behavior
-
-Bundle subscriptions or offer targeted promotions
-
-Focus on Top Content
+ Content Strategy
 Invest in high-performing categories
+Highlight trending content
 
-Highlight trending shows on the homepage
+ Future Improvements
+Machine learning recommendations
+Real-time dashboards
+Customer feedback integration
+Churn prediction
 
-Future Improvements
-Implement machine learning recommendation systems
+ How to Run Queries
+CREATE TABLE brighttv_data 
+USING DELTA 
+AS SELECT * FROM your_file;
 
-Build real-time dashboards
+Run the SQL queries in Databricks.
 
-Incorporate customer feedback data
+ Project Structure
+BrightTV-Analysis/
+│── Project Description & Raw Data
+│── Project Planning
+│   └── Miro Flowchart
+│   └── Ghantt Chart
+│── Data Processing    
+│   └── SQL/
+    └── Excel/Pivot/Graphs
+│── Presentation/
+│   └── Slides.pdf
+│── Dashboard/
+│   └── Screenshots.png
+│   └── Link
+│   README.md
 
-Perform churn prediction analysis
-How to Run Queries
-Upload dataset to Databricks workspace
-
-Create a table:
-
-CREATE TABLE brighttv_data USING DELTA AS SELECT * FROM your_file;
-Run analysis queries provided in the project
-
-Author
-
+ Author
 
 Refilwe Sebako
+Data Analyst/Virtual Assistant
 
 Project Value
 
 This project demonstrates how data can be used to:
+
 Improve customer engagement
 Drive business growth
 Support strategic decision-making
+
+Portfolio Highlight
+
+This project showcases:
+
+SQL data transformation
+Data analysis & segmentation
+Dashboard creation
+Business-driven insights
