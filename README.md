@@ -50,6 +50,10 @@ Dashboard
 
 ![Dashboard](5.%20Dashboard/Dashboard%20Screenshot.png)
 
+Live Dashboard
+
+[View BrightTV Dashboard](https://brightbeam-analytics.lovable.app)
+
 Key Analysis
 1. User & Engagement Trends
 Monthly active users
