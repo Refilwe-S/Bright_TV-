@@ -114,17 +114,18 @@ AS SELECT * FROM your_file;
 Run the SQL queries in Databricks.
 
  Project Structure
-BrightTV-Analysis/
+ 
+BrightTV-Analysis
+
 │── Project Description & Raw Data
 │── Project Planning
 │   └── Miro Flowchart
 │   └── Ghantt Chart
 │── Data Processing    
-│   └── SQL/
+│   └── SQL
     └── Excel/Pivot/Graphs
-│── Presentation/
-│   └── Slides.pdf
-│── Dashboard/
+│── Presentation
+│   └── Dashboard
 │   └── Screenshots.png
 │   └── Link
 │   README.md
