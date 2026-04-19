@@ -48,7 +48,7 @@ Workflow
 
 Dashboard
 
-![Dashboard](5.%20Dashboard/Dashboard%20Screenshot.png)
+![Dashboard](4.Project%20Presentation/Dashboard%20Screenshot.png)
 
 Live Dashboard
 
