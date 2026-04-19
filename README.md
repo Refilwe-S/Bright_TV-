@@ -48,7 +48,7 @@ Workflow
 
 Dashboard
 
-Add your dashboard screenshot here (VERY IMPORTANT for portfolio)
+![Dashboard](5.%20Dashboard/Dashboard%20Screenshot.png)
 
 Key Analysis
 1. User & Engagement Trends
