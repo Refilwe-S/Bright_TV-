@@ -61,11 +61,11 @@ Data Collection → Data Cleaning → Transformation → Analysis → Dashboard 
 
 ## Project Planning
 
-### 🔗 Miro Flowchart
+### Miro Flowchart
 
 [View Flowchart](./2.%20Project%20Planning/Miro%20Flow-Chart.png)
 
-### 🔗 Gantt Chart
+### Gantt Chart
 
 [View Gantt Chart](./2.%20Project%20Planning/Gantt%20Chart.png)
 
@@ -200,7 +200,7 @@ BrightTV-Analysis
 **Refilwe Sebako**
 Data Analyst | Virtual Assistant
 
-🔗 LinkedIn: https://www.linkedin.com/in/resebako
+LinkedIn: https://www.linkedin.com/in/resebako
 
 ---
 
